@@ -1,0 +1,87 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #373737;
+    color: floralwhite;
+}
+
+section {
+    display: table;
+    width: 100%;
+}
+
+.section-container {
+    background-color: #373737;
+    margin: 50px 20% 50px; 
+    padding: 20px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img.avatar-img {
+    width: 200px;
+}
+
+header h1.big-title {
+    font-size: 180px;
+    text-transform: uppercase;
+}
+
+/* nav menu */
+
+nav.nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav.nav ul li a{
+    text-decoration: none;
+    background-color: floralwhite;
+    color: #373737;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* about */
+
+section#about {
+    height: 250px;
+    background: url(../images/intro.jpg) fixed no-repeat;
+    background-position: center;
+}
+
+/* weapons */
+
+
+section#weapons {
+    height: 250px;
+    background: url(../images/armurerie.jpg) fixed no-repeat;
+    background-position: center;
+}
+
+.weapon-section {
+    display: flex;
+    padding: 20px;
+}
+
+.weapon-item img{
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: center;
+}

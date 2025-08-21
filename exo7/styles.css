@@ -1,0 +1,146 @@
+body {
+    /* background-color: #F25A29; */
+    background: url(../images/header-section.jpg) no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0 auto;
+    font-family: 'Ravi Prakash', cursive;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #373737;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.3s all;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_container {
+    margin: 10px 20% 10px 20%;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    line-height: 12px;
+}
+
+header h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+}
+
+header img {
+    height: 300px;
+}
+
+header span {
+    font-size: 30px;
+}
+
+/* a propos */
+
+section#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+
+section#about {
+    margin-bottom: -30px;
+    margin-left: calc(20% + 32px);
+    margin-right: calc(20% + 32px);
+}
+
+section#about div {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+section#about div h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.opening { background: url(../images/1.jpg); }
+.mention { background: url(../images/2.jpg); }
+.cocktails { background: url(../images/3.jpg); }
+
+/* happy hour */
+
+section#cocktails {
+    background: url(../images/cocktail-section.jpg) fixed;
+    padding: 20px;
+}
+
+.first-row, .second-row  {  display: flex; }
+
+.col-3 { flex: 0.333; }
+.col-2 { flex: 0.5; }
+
+.cocktail-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+}
+
+.col-2 img {
+    width: 140px;
+}
+
+.col-3 img {
+    width: 100px;
+}
+
+.cocktail-item p {
+    font-size: 25px;
+}
+
+.cocktail-item h4 {
+    font-size: 30px;  
+    text-transform: uppercase;
+}
+
+.cocktail-item:hover .overlay {
+    height: 100%;
+    padding: 20px;
+}
+
+.sunmoon-banner{ background: url(../images/sunmoon-banner.jpg) }
+.mentalux-banner{ background: url(../images/mentalux-banner.jpg) }
+.coco-banner{ background: url(../images/coco-banner.jpg) }
+.citrinus-banner{ background: url(../images/citrinus-banner.jpg) }
+.spicherry-banner{ background: url(../images/cherry-banner.jpg) }
+
+/* pied de page */
+footer {
+    background-color: #373737;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
